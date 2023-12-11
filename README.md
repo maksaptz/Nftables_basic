@@ -1,3 +1,5 @@
+standard nftables.conf
+
 ```flush ruleset
 
 table inet filter {
