@@ -1,4 +1,4 @@
-flush ruleset
+```flush ruleset
 
 table inet filter {
         chain input {
@@ -20,4 +20,4 @@ table inet filter {
                 type filter hook output priority filter;
                 policy accept;
         }
-}
+}```
